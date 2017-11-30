@@ -86,6 +86,7 @@ var myCallback = function (data) {
         posIndex = 0;
         gpsPoints = null;
         pointsArray = null;
+        myTransEnd && myTransEnd();     //坐标转换结束钩子
     }
 }
 
